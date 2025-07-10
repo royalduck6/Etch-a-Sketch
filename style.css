@@ -1,0 +1,14 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#container * {
+  box-sizing: border-box;
+  flex-grow: 1;
+  background: white;
+  border: 2px solid black;
+  width: 25%;
+  aspect-ratio: 1 / 1;
+} 
